@@ -1,0 +1,40 @@
+
+h3 {color: black; text-align: center;}
+
+
+.container {
+	text-align: center;
+	height: 300px;
+	background-color: lightBlue;
+	display: flex;
+	flex_direction: row; /* o=OU row*/
+	flex-wrap: wrap;
+	justify-content: space-around; /*flex-end OR center OR flex-start OR space-between* pour placer les item au début, au milieu ou à la fin du container*/
+	align-items: center;
+	
+}
+ .item{
+	 border-radius: 10px;
+	 position: relative;
+	margin: auto;
+	border: 2px solid #FFFFFF;
+    height: 200px;
+		 
+ }
+ 
+ .nom {
+text-align: center;
+color: blue;
+background-color: white;
+border: 2px solid skyBlue;
+border-radius: 5px;
+ }
+ 
+ .contact {
+	 height: 200px;
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: space-around;
+	background-color: deepSkyBlue; 
+	 
+ }
